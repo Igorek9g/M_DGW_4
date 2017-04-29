@@ -17,6 +17,9 @@ public:
     std::map <G4double ,G4int> GetHist() const { return hist;};
 private:
     std::map <G4double ,G4int> hist;
+    G4int result;
+    void SetNewEvent(){result++;}
+    int GetResult () const {return result;}
 };
 
 

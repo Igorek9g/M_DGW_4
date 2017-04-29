@@ -26,6 +26,9 @@ public:
 
 private:
     G4double protonEEnergy, tritonEEnergy, protonSEnergy, tritonSEnergy;
+    bool flag;
+protected:
+
 
 };
 

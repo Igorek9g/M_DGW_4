@@ -19,7 +19,7 @@ include_directories(${PROJECT_SOURCE_DIR}/include)
 file(GLOB sources ${PROJECT_SOURCE_DIR}/src/*.cc)
 file(GLOB headers ${PROJECT_SOURCE_DIR}/include/*.hh)
 
-add_executable(${NAME} main.cc ${sources} ${headers} include/Run.hh src/Run.cc include/EventAct.hh src/EventAct.cc include/RunGen.hh src/RunGen.cc include/StepAction.hh src/StepAction.cc)
+add_executable(${NAME} main.cc ${sources} ${headers} include/Run.hh src/Run.cc include/EventAct.hh src/EventAct.cc include/RunGen.hh src/RunGen.cc include/StepAction.hh src/StepAction.cc include/RunAct.hh src/RunAct.cc)
 target_link_libraries(${NAME} ${Geant4_LIBRARIES})
 
 

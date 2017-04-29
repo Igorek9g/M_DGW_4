@@ -17,7 +17,8 @@ public:
     virtual ~SteppingAction(){}
     void UserSteppingAction(const G4Step*);
 private:
-    EventAct*                       EvAct;
+    EventAct* EvAct;
+    EventAct* Act;
 };
 
 #endif //HE3_STEPACTION_HH
